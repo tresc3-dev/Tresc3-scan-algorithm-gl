@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="tresc3_scan_algorithm_test" type="tresc3_scan_test_node" name="tresc3_scan_test_node" output="screen">
+        <param name="serial_port_name" type="string" value="/dev/ttyUSB0"/>
+        <param name="frame_id" type="string" value="pcl_data"/>
+        <param name="pub_topicname_pcl" type="string" value="pcl_data"/>
+        <param name="direction" type="string" value="$(arg direction)"/>
+        <param name="velocity" type="double" value="$(arg velocity)"/>
+        <param name="height" type="double" value="$(arg height)"/>
+    </node>
+</launch>

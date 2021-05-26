@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tresc3_scan_algorithm_gl</name>
+  <version>0.0.1</version>
+  <description>The Tresc3 scan algorithm package using SOSLAB's gl_ros_driver</description>
+
+  <maintainer email="msjunechang21@gmail.com">JuneChang Lee</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+</package>
